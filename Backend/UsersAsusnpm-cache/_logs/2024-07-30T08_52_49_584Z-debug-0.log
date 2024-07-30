@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Asus\OneDrive\Desktop\BookStoreClone\bookStoreApp\Backend\.npmrc
+5 silly config load:file:C:\Users\Asus\.npmrc
+6 silly config load:file:C:\Users\Asus\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\Asus\OneDrive\Desktop\BookStoreClone\bookStoreApp\Backend\UsersAsusnpm-cache\_logs\2024-07-30T08_52_49_584Z-
+10 verbose logfile C:\Users\Asus\OneDrive\Desktop\BookStoreClone\bookStoreApp\Backend\UsersAsusnpm-cache\_logs\2024-07-30T08_52_49_584Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\Users\Asus\OneDrive\Desktop\BookStoreClone\bookStoreApp\Backend
+13 verbose os Windows_NT 10.0.22621
+14 verbose node v20.16.0
+15 verbose npm  v10.8.1
+16 verbose exit 3221225786
+17 verbose code 3221225786
