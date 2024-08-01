@@ -3,18 +3,18 @@ import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
 function Course() {
-  const [books, setBooks] = useState([]);
+  const [book, setBook] = useState([]);
   useEffect(() => {
-    const fetchBooks = async () => {
+    const getBook = async () => {
       try {
         const res = await axios.get("https://book-store-app-backend-nine.vercel.app/book");
         console.log(res.data);
-        setBooks(res.data);
+        setBook(res.data);
       } catch (error) {
-        console.log("Error fetching books: ",error);
+        console.log(error);
       }
     };
-    fetchBooks();
+    getBook();
   }, []);
   return (
     <>
