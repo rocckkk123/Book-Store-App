@@ -26,11 +26,11 @@ try {
 } catch (error) {
     console.log("Error: ", error);
 }
-// app.get('/',(req,res)=>{
-//     res.json({
-//         Hello:"Hello"
-//     })
-// })
+app.get('/',(req,res)=>{
+    res.json({
+        Hello:"Hello"
+    })
+})
 
 // defining routes
 app.use("/book", bookRoute);
